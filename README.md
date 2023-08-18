@@ -16,11 +16,15 @@ make sure to put the downloaded files in the same folder (Apple_Detection)
 
 ### Test 1 (for Picture)
 
+use the following command to run the program for image apple detection
+
 `python apple_detection_from_photo.py -i apple_tree_images_and_vids/apple-1.jpg -c yolov3.cfg -cl yolov3.txt -w yolov3.weights`
 
 ![Screenshot from 2023-08-18 00-07-09](https://github.com/c1ph3r-fsocitey/Apple_Detection/assets/109020327/6f0bfa7c-ce82-4974-b93c-5dee3ce56711)
 
 ### Test 2 (for Videos)
+
+use the following command to run the program for video apple detection
 
 `python apple_detection_from_video.py -v apple_tree_images_and_vids/apple_vid.mp4 -c yolov3.cfg -cl yolov3.txt -w yolov3.weights`
 
